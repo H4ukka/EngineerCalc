@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<script type="text/javascript" src="calc.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<table>
+
+<tr>
+   <td align="center" valign="top" style="width: 300px" >
+   
+   <p>Tulostaulu</p>
+   <p style="font-size:10px;">(Tyhjennä päivittämällä sivu)</p>
+   <p id="div1"></p>
+   <p>&nbsp;</p>
+
+   </td>	
+   <td>&nbsp;</td>
+	
+   <td  align="center" valign="top" style="width: 200px length:100px">
+
+   <p>Anna taajuus hertseinä </p>
+   <input type="number" id="taajuus" /> 
+   <p>Anna kapasitanssi nanofaradeina</p>
+   <input type="number" id="kapasitanssi"/>
+   <p>Anna resistanssi ohmeina</p>
+   <input type="number" id="resistanssi"  /> 
+
+
+   <br><br><br>	
+   <input type="button" onclick="lasketaajuus()" value="Laske taajuus" ></button>
+   <br>
+   <input type="button" onclick="laskekapasitanssi()" value="Laske kapasitanssi" ></button>
+   <br>
+   <input type="button" onclick="laskeresistanssi()" value="Laske resistanssi" ></button> 
+
+   </td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><br><br><br>
+<img src="./suodinkuva.jpg" width=200px length=200px></td>
+</tr>
+</table>
+	</body>
+</html>
