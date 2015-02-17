@@ -10,36 +10,50 @@
   <body>
 
   <div id="header">
+    <h1>TinoCalc</h1>
   </div>
 
   <div id="page">
 
-    <div class="control_wrap">
-      <div class="input">
-        <p>Frequency</p><p class="unit">Hz</p>
-        <input type="number" id="taajuus" /> 
+    <div id="calculator">
+
+      <div class="control_wrap">
+        <div class="input">
+          <p>Frequency</p><p class="unit">Hz</p>
+          <input type="number" id="taajuus" /> 
+        </div>
+
+        <div class="input">
+          <p>Capacitance</p><p class="unit">nF</p>
+          <input type="number" id="kapasitanssi" /> 
+        </div>
+
+        <div class="input">
+          <p>Resistance</p><p class="unit">Ω</p>
+          <input type="number" id="resistanssi" /> 
+        </div>
       </div>
 
-      <div class="input">
-        <p>Capacitance</p><p class="unit">nF</p>
-        <input type="number" id="kapasitanssi" /> 
+      <div class="button_wrap">
+
+        <div id="frequency">
+          <input id="frequency_button" type="button" onclick="lasketaajuus()" value="Laske taajuus" ></button>
+        </div>
+        <div id="capacitance">
+          <input id="capacitance_button" type="button" onclick="laskekapasitanssi()" value="Laske kapasitanssi" ></button>
+        </div>
+        <div id="resistance">
+          <input id="resistance_button" type="button" onclick="laskeresistanssi()" value="Laske resistanssi" ></button>
+        </div>
+
       </div>
 
-      <div class="input">
-        <p>Resistance</p><p class="unit">Ω</p>
-        <input type="number" id="resistanssi" /> 
-      </div>
-    </div>
-
-    <div class="button_wrap">
-      <input type="button" onclick="lasketaajuus()" value="Laske taajuus" ></button>
-      <input type="button" onclick="laskekapasitanssi()" value="Laske kapasitanssi" ></button>
-      <input type="button" onclick="laskeresistanssi()" value="Laske resistanssi" ></button>
     </div>
 
   </div>
 
   <div id="footer">
+    <p>Fork me on <a href="https://github.com/H4ukka/EngineerCalc/">github</a> or visit an awesome site called <a href="http://linkkilista.co.nf/">linkkilista.co.nf</a></p>
   </div>
 
   </body>
