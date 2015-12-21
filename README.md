@@ -1,4 +1,4 @@
 # EngineerCalc
 A simple calculator
 
-Live version: iamlaine.info/ecalc
+[Live version](http:/www.iamlaine.info/ecalc)
